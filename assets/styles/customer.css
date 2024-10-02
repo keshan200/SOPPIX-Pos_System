@@ -1,0 +1,107 @@
+
+.main-cont{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+
+    margin-top: 88px;
+}
+
+.headerbar{
+    width: 100vw;
+    height: 12vh;
+    background-color: ghostwhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+
+.logo{
+    width: 185px;
+    height: auto;
+}
+
+
+.btn button{
+    margin: 5px;
+}
+
+.cardd{
+    border: 1px solid grey;
+    background-color: rgba(216, 214, 214, 0.62);
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+
+
+.customer{
+    width: 40vw;
+    height: auto;
+}
+
+.txt{
+    margin: 20px;
+}
+
+.srch form{
+    padding: 20px;
+}
+
+
+.sec{
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn button{
+    margin-left: 28px;
+}
+
+
+
+
+
+
+@media all and (max-width: 768px){
+
+.main-cont{
+    display: flex;
+    flex-direction: column;
+    margin-top: 333px;
+}
+
+    .customer{
+        width: 67vw!important;
+    }
+
+    .sec div{
+        margin-bottom: 40px;
+    }
+
+}
+
+
+@media all and (max-width: 425px){
+
+    .sec{
+        width:82vw !important;
+    }
+
+    .customer {
+        width: 82vw !important;
+    }
+}
+
+
+
+@media all and (max-width: 320px) {
+
+    .sec {
+        width: 87vw !important;
+    }
+}

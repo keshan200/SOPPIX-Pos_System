@@ -1,0 +1,32 @@
+
+.headerbar{
+    width: 100vw;
+    height: 12vh;
+    background-color: ghostwhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo{
+    transform: scale(52%) translateX(-103px);
+}
+
+
+.btn button{
+    margin: 10px;
+}
+
+
+main{
+    height: 70vh;
+}
+
+.container{
+    margin-top: 70px;
+}
+
+.col{
+    background-color:limegreen
+}
