@@ -30,3 +30,11 @@ main{
 .col{
     background-color:limegreen
 }
+
+#homePage{
+    position: relative;
+    top: 80px;
+
+}
+
+
