@@ -200,6 +200,8 @@ $("#purchase").on("click", function () {
           timer: 1500
       });
 
+      cartItems = [];
+
   }else{
       Swal.fire({
           icon: "error",
