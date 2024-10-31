@@ -54,6 +54,7 @@ $('#Cussave').on('click', () => {
     // Check duplicate email or mobile
     const isDuplicate = cusArray.some(customer => customer.mail === mail || customer.tel === cusTel);
 
+    console.log("click");
 
     if(cusName.length===0) {
         Swal.fire({
